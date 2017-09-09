@@ -1,0 +1,43 @@
+body,
+html {
+    height: 100%;
+}
+body {
+    background: white;
+}
+header {
+    height: 50px;
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    border-bottom: 1px dotted #B2B2B2;
+    background: #fff;
+}
+#title{
+    color: #d36868;
+    font-size: 30px;
+    border-bottom: 1px solid pink;
+    text-align: center;
+
+}
+
+.row-fluid {
+    position: absolute;
+    top: 90px;
+    left: 85%;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    padding-left: 10px;
+}
+
+/* map */
+#map {
+    position: absolute;
+    top: 70px; 
+    left: 20px;
+    width: 80%;
+    height: 82%;
+}
