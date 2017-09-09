@@ -9,7 +9,7 @@ let keyword;
 function getData(data) {
 
     $.ajax({
-        url: 'http://60.249.210.49/opendata/pub/json/cctv/latest_info',
+        url: 'http://work1999.kcg.gov.tw/open1999/ServiceRequestsQuery.asmx/ServiceRequestsQuery',
         type: 'GET',
         dataType: 'json',
         success: function(data) {
