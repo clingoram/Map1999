@@ -27,10 +27,10 @@ a:hover{
 	justify-content: center; 
 }
 header {
-    height: 50px;
-    width: 100%;
-    position: absolute;
-    border-bottom: 1px solid #B2B2B2;
+    	height: 50px;
+    	width: 100%;
+    	position: absolute;
+    	border-bottom: 1px solid #B2B2B2;
 }
 section{
 	padding: 30px;
