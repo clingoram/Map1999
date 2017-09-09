@@ -9,7 +9,7 @@ let keyword;
 function getData(data) {
 
     $.ajax({
-        url: 'http://work1999.kcg.gov.tw/open1999/ServiceRequestsQuery.asmx/ServiceRequestsQuery',
+        url: 'https://data.kaohsiung.gov.tw/opendata/DetailList_Mrt.aspx',
         type: 'GET',
         dataType: 'json',
         success: function(data) {
