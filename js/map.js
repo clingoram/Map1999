@@ -9,7 +9,7 @@ let keyword;
 function getData(data) {
 
     $.ajax({
-        url: 'https://data.kaohsiung.gov.tw/opendata/DetailList_Mrt.aspx',
+        url: 'http://60.249.210.49/opendata/pub/json/cctv/latest_info',
         type: 'GET',
         dataType: 'json',
         success: function(data) {
